@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+
+    <!-- Skin Gradient -->
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa" />
+      <stop offset="100%" stop-color="#fdba74" />
+    </linearGradient>
+
+    <!-- Hair Gradient -->
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Hoodie / Apparel Gradient -->
+    <linearGradient id="apparelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0369a1" />
+      <stop offset="100%" stop-color="#0c4a6e" />
+    </linearGradient>
+
+    <!-- Glasses Frame Gradient -->
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Circular Base -->
+  <circle cx="60" cy="60" r="58" fill="url(#bgGrad)" stroke="#ffffff" stroke-width="2" />
+
+  <!-- Background Soft Aura -->
+  <circle cx="60" cy="45" r="32" fill="#ffffff" opacity="0.1" />
+
+  <!-- Body / Hoodie Shoulders -->
+  <path d="M22 108 C24 88, 38 78, 60 78 C82 78, 96 88, 98 108 Z" fill="url(#apparelGrad)" />
+  <!-- Inner T-shirt collar -->
+  <path d="M48 78 Q60 88 72 78 Z" fill="#0f172a" opacity="0.4" />
+  <!-- Zipper / accent -->
+  <line x1="60" y1="84" x2="60" y2="108" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Neck -->
+  <rect x="52" y="66" width="16" height="16" rx="4" fill="#fb923c" opacity="0.3" />
+  <rect x="52" y="64" width="16" height="14" rx="4" fill="url(#skinGrad)" />
+
+  <!-- Face -->
+  <rect x="40" y="32" width="40" height="42" rx="18" fill="url(#skinGrad)" />
+
+  <!-- Ears -->
+  <circle cx="39" cy="53" r="5" fill="#fba768" />
+  <circle cx="81" cy="53" r="5" fill="#fba768" />
+
+  <!-- Hair Base / Back -->
+  <path d="M37 40 C37 20, 83 20, 83 40 C83 45, 83 48, 83 48 C77 34, 43 34, 37 48 Z" fill="url(#hairGrad)" />
+
+  <!-- Stylish Modern Hair Bangs -->
+  <path d="M38 38 C42 22, 78 22, 82 34 C76 31, 68 31, 62 35 C56 32, 48 32, 42 38 Z" fill="#0f172a" />
+  <path d="M42 36 Q50 30 58 35 Q68 28 80 35 Q74 24 60 25 Q46 25 42 36 Z" fill="url(#hairGrad)" />
+
+  <!-- Eyebrows -->
+  <path d="M46 44 Q50 42 54 44" stroke="#1e293b" stroke-width="2" stroke-linecap="round" fill="none" />
+  <path d="M66 44 Q70 42 74 44" stroke="#1e293b" stroke-width="2" stroke-linecap="round" fill="none" />
+
+  <!-- Eyes -->
+  <circle cx="50" cy="50" r="2.5" fill="#0f172a" />
+  <circle cx="70" cy="50" r="2.5" fill="#0f172a" />
+  <circle cx="51" cy="49" r="0.8" fill="#ffffff" />
+  <circle cx="71" cy="49" r="0.8" fill="#ffffff" />
+
+  <!-- Modern Tech Glasses -->
+  <rect x="43" y="45" width="14" height="10" rx="3" fill="#38bdf8" fill-opacity="0.2" stroke="url(#glassGrad)" stroke-width="1.8" />
+  <rect x="63" y="45" width="14" height="10" rx="3" fill="#38bdf8" fill-opacity="0.2" stroke="url(#glassGrad)" stroke-width="1.8" />
+  <line x1="57" y1="49" x2="63" y2="49" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" />
+  <line x1="39" y1="49" x2="43" y2="49" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" />
+  <line x1="77" y1="49" x2="81" y2="49" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" />
+
+  <!-- Nose -->
+  <path d="M60 51 L59 56 L62 56" stroke="#ea580c" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.6" />
+
+  <!-- Friendly Smile -->
+  <path d="M54 62 Q60 67 66 62" stroke="#9a3412" stroke-width="2" stroke-linecap="round" fill="none" />
+
+  <!-- Code / Tech spark icon pin on hoodie -->
+  <circle cx="78" cy="92" r="5" fill="#0284c7" />
+  <path d="M76 90 L74 92 L76 94 M80 90 L82 92 L80 94" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+</svg>
